@@ -7,4 +7,8 @@ public interface ServiciosObjeto {
     public boolean addObjeto(Objeto objeto) throws idException;
 
     public void leerObjetos();
+
+    public void EscribirBinario();
+    public void cargarDeBinario();
+    public void escribirTexto();
 }

@@ -1,0 +1,12 @@
+
+0;Objeto0;
+1;Objeto1;
+2;Objeto2;
+3;Objeto3;
+4;Objeto4;
+5;Objeto5;
+6;Objeto6;
+7;Objeto7;
+8;Objeto8;
+9;Objeto9;
+23;hola;:uno :dos:tees:re

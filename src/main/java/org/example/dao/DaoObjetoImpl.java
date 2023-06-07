@@ -18,4 +18,21 @@ public class DaoObjetoImpl implements DaoObjeto {
     public List<Objeto> leerObjeto() {
         return database.getListaObjetos();
     }
+
+    @Override
+    public void escribirBinario() {
+        database.escribirBinario();
+    }
+
+    @Override
+    public void cargarDeBinario() {
+        database.cargarDeBinario();
+    }
+
+    @Override
+    public void escribirTexto() {
+        database.escribirEnTxt();
+    }
+
+
 }

@@ -23,4 +23,19 @@ public class ServiciosObjetoImpl implements ServiciosObjeto{
     public void leerObjetos() {
         System.out.println(daoObjeto.leerObjeto());
     }
+
+    @Override
+    public void EscribirBinario() {
+        daoObjeto.escribirBinario();
+    }
+
+    @Override
+    public void cargarDeBinario() {
+        daoObjeto.cargarDeBinario();
+    }
+
+    @Override
+    public void escribirTexto() {
+        daoObjeto.escribirTexto();
+    }
 }

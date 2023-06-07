@@ -1,9 +1,13 @@
 package org.example.domain;
 
-public class Objeto {
+import java.io.Serializable;
 
-    int id;
-    String nombre;
+import static java.lang.Integer.parseInt;
+
+public class Objeto implements Serializable {
+
+    protected int id; // protected los atributos para que se puedan usar en los hijos
+    protected String nombre;
     public Objeto(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
@@ -13,8 +17,12 @@ public class Objeto {
         return id;
     }
 
+
+    public String toStringFichero(){
+        return "\n"+id+";"+nombre+";";
+    }
     @Override
     public String toString(){
-        return "ID: "+id+" nombre: "+nombre;
+        return "\nID: "+id+" nombre: "+nombre;
     }
 }
