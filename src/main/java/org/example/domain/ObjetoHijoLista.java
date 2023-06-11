@@ -1,6 +1,5 @@
 package org.example.domain;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -14,6 +13,7 @@ public class ObjetoHijoLista extends Objeto{
 
     private String escribirLista(){
         StringBuilder strin = new StringBuilder();
+
         for (String e: lista) {
             if (!e.equals("0"))strin.append(e).append(":");
             else{//le quito los dos puntos del final y le meto dos al principio para diferenciar cuando empiezan los pueblos

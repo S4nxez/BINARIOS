@@ -29,9 +29,15 @@ public class DaoObjetoImpl implements DaoObjeto {
         database.cargarDeBinario();
     }
 
+
     @Override
     public void escribirTexto() {
         database.escribirEnTxt();
+    }
+
+    @Override
+    public List<Objeto> consulta(int id1, int id2) {
+        return database.consulta(id1, id2);
     }
 
 

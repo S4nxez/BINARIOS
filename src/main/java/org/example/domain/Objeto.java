@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import static java.lang.Integer.parseInt;
 
-public class Objeto implements Serializable {
+public class Objeto implements Serializable{
 
     protected int id; // protected los atributos para que se puedan usar en los hijos
     protected String nombre;
@@ -17,7 +17,6 @@ public class Objeto implements Serializable {
         return id;
     }
 
-
     public String toStringFichero(){
         return "\n"+id+";"+nombre+";";
     }
@@ -25,4 +24,6 @@ public class Objeto implements Serializable {
     public String toString(){
         return "\nID: "+id+" nombre: "+nombre;
     }
+
+
 }

@@ -8,8 +8,7 @@ public interface DaoObjeto {
     public boolean addObjeto(Objeto objeto);
     public List<Objeto> leerObjeto();
     public void escribirBinario();
-
     public void cargarDeBinario();
-
     public void escribirTexto();
+    public List<Objeto> consulta(int id1, int id2);
 }
